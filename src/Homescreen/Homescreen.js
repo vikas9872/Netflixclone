@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Homescreen.css"
 import Navbar from '../Navbar/Navbar'
+import Banner from '../Banner/Banner'
 
 const Homescreen = () => {
   return (
@@ -8,7 +9,7 @@ const Homescreen = () => {
         {/* navbar */}
         <Navbar/>
         {/* banner */}
-
+        <Banner/>
         {/* row */}
     </div>
   )
