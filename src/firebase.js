@@ -1,5 +1,7 @@
+import dotenv from 'dotenv';
+dotenv.config();
 const firebaseConfig = {
-    apiKey: "AIzaSyBZRBt4VwM-VX2Ar6tzzvEgq4GRFK9v48Q",
+    apiKey: PROCESS.env.FB_KEY,
     authDomain: "netflixclone-29e4a.firebaseapp.com",
     projectId: "netflixclone-29e4a",
     storageBucket: "netflixclone-29e4a.firebasestorage.app",
