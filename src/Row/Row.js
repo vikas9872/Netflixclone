@@ -12,6 +12,7 @@ const Row = ({ title, fetchUrl, isaLargeRow = false }) => {
     }
     fetchData();
   }, [fetchUrl]);
+  console.log("title", title, "url", fetchUrl);
   return (
     <div className='row'>
       <h2>{title}</h2>
