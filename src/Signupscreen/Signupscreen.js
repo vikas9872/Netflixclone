@@ -22,6 +22,15 @@ const Signupscreen = () => {
 
   const signIn = (e) => {
     e.preventDefault();
+    createUserWithEmailAndPassword(
+      auth,
+      emailRef.current.value,
+      passRef.current.value,
+    ).then((authUser) => {
+      console.log(authUser)
+    }).catch((error) => {
+      alert(error.message)
+    });
   }
 
   return (
