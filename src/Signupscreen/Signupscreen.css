@@ -3,4 +3,46 @@
     padding: 70px;
     margin-left: auto;
     margin-right: auto;
+    background: rgba(0, 0, 0, 0.85);
+}
+.signupscreen form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.signupscreen form h1{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.signupscreen form h4{
+    text-align: left;
+    margin-top: 30px;
+}
+.signupscreen_gray{
+    color: gray
+}
+.signupscreen_link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.signupscreen form input{
+    outline: 0;
+    height: 40px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+}
+
+.signupscreen form button{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 600;
 }
